@@ -6,13 +6,29 @@
 body{
     background-color: a;
 }
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 #juice{
-    background: linear-gradient(rgba(6, 208, 223, 0.726),rgba(243, 2, 243));
-    
+    background: linear-gradient(rgba(23, 24, 24, 0.726),rgb(58, 4, 58));
+    background-image: url(../ASSETS/images/Metal.jpg);
     box-shadow: rgba(0, 0, 0, 0.568) 5px 5px ;
     border-radius: 15px;
 }
 body{
-    background: linear-gradient(rgb(10, 221, 211),rgb(243, 2, 243));
+    background: linear-gradient(rgba(26, 27, 27, 0.918),rgba(75, 68, 75, 0.74));
+}
+
+#zero{
+    
+    min-width:50% ;
+    max-width: 100%;
+}
+#metal{
+    background-image: url(../ASSETS/images/old-shiny-metal-background-dark-brushed-metal-texture-with-scratches-scaled.jpg);
+}
+#metin{
+    color: white;
+}
+#but-in{
+    display: flex;
+    justify-content: end;
 }
