@@ -19,7 +19,7 @@ body{
 
 #zero{
     
-    min-width:50% ;
+    min-width:54% ;
     max-width: 100%;
 }
 #metal{
@@ -31,4 +31,5 @@ body{
 #but-in{
     display: flex;
     justify-content: end;
+    
 }
