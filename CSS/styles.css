@@ -10,8 +10,10 @@ body{
 #juice{
     background: linear-gradient(rgba(23, 24, 24, 0.726),rgb(58, 4, 58));
     background-image: url(../ASSETS/images/Metal.jpg);
-    box-shadow: rgba(0, 0, 0, 0.568) 5px 5px ;
+    box-shadow: rgba(48, 47, 47, 0.568) 5px 5px ;
     border-radius: 15px;
+    min-width:54% ;
+    
 }
 body{
     background: linear-gradient(rgba(26, 27, 27, 0.918),rgba(75, 68, 75, 0.74));
@@ -19,8 +21,8 @@ body{
 
 #zero{
     
-    min-width:54% ;
-    max-width: 100%;
+  max-width: 100%;
+   
 }
 #metal{
     background-image: url(../ASSETS/images/old-shiny-metal-background-dark-brushed-metal-texture-with-scratches-scaled.jpg);
@@ -32,4 +34,10 @@ body{
     display: flex;
     justify-content: end;
     
+}
+#butao{
+    background: linear-gradient(rgb(32, 32, 32),rgb(167, 5, 167));
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
 }
