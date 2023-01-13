@@ -44,3 +44,35 @@ body{
 #magoa{
     max-height: 50%;
 }
+div:hover:not(:hover){
+    opacity: 0.3;
+}
+#zero:hover{
+    scale:1.1;
+    transition: 0.3s;
+}
+#zero ul{
+    display: none;
+}
+#zero:hover ul{
+    display: block;
+}
+#zero button{
+    display: none;
+}
+#zero:hover button{
+    display: block;
+}
+.plus{
+    display: flex;
+    justify-content: start;
+    color: aliceblue;
+    font-size: 70px;
+}
+.plus:hover{
+    scrollbar-color: red;
+    color: ;
+    scale:1.5;
+    transition: 0.3s;
+    color: rgba(139, 7, 139, 0.473);
+}

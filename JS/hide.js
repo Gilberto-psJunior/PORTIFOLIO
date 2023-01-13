@@ -5,12 +5,4 @@ function Mudarestado(el) {
     else
         document.getElementById(el).style.display = 'none';
 }
-console.log("ola")
 
-
-var nome= maria;
-function frase() {
-    ("olá","!");
-    
-}
-console.log(frase("leonardo"));
