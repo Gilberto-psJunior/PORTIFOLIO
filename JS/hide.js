@@ -6,3 +6,6 @@ function Mudarestado(el) {
         document.getElementById(el).style.display = 'none';
 }
 
+$(".modal").on("hidden.bs.modal", function(){
+    $(".modal-body1").html("");
+});
